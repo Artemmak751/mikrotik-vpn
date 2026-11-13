@@ -1,9 +1,3 @@
-# 2026-11-13 17:30:38 by RouterOS 7.23.1
-# software id = FJA0-L0EY
-#
-# model = C52iG-5HaxD2HaxD
-# serial number = HJR0ASB1Q7J
-/ip firewall address-list
 add address=192.168.88.0/24 list=allow-winbox
 add address=149.154.162.0/24 list=to-WG
 add address=149.154.164.0/24 list=to-WG
